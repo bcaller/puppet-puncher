@@ -103,7 +103,7 @@ Since you don't know what the function does, your best bet for getting a clue as
 Exfiltration method is entirely up to you.
 
 
-## What's with the <q>s?
+## What's with the `<q>`s?
 
 This is to delay the `domContentLoaded` event. In this example, the puppeteer is `await`ing it. If we make it pause here, we have longer to play around before the page is killed. This only really important in the case where the function doesn't throw an error, or takes a long time to execute.
 
