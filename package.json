@@ -1,0 +1,13 @@
+{
+  "name": "puppet-puncher",
+  "version": "1.0.0",
+  "description": "Attack headless chrome using puppeteer's exposedFunctions",
+  "main": "readfile.js",
+  "repository": "https://github.com/bcaller/puppet-puncher",
+  "author": "bcaller",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^1.14.0"
+  }
+}
